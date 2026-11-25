@@ -15,7 +15,7 @@ cask "fanyi" do
 
   # 内置 Sparkle 自动更新
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Fanyi.app"
 
