@@ -7,8 +7,7 @@ cask "voicewriter" do
   desc "Hold a hotkey to dictate: speech to polished text at the cursor"
   homepage "https://voice-writer.com/"
 
-  # 内置 Sparkle 自动更新；下载地址每次发版原地替换，所以不固定版本和校验值
-  auto_updates true
+  # 下载地址每次发版原地替换，所以不固定版本和校验值；装好后由 App 内置的 Sparkle 自动更新
   depends_on macos: :ventura
 
   app "VoiceWriter.app"
