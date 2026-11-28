@@ -1,6 +1,6 @@
 cask "fanyi" do
-  version "1.8"
-  sha256 "0dc29cd0f3a541f4e10e9d563fcbe7b8bf1ce88df271724e70ee996142eea6c7"
+  version "1.9"
+  sha256 "53b355e1b35ad10e86aa3168fa2f0bdb2f261880d681b60383466a8527c99180"
 
   url "https://github.com/tianyaphoto/fanyi/releases/download/v#{version}/Fanyi.zip"
   name "Fanyi"
